@@ -1,0 +1,89 @@
+vagrant status
+ls
+ssh-keygen
+ls -la
+cd .ssh
+ls -l
+cat id_rsa.pub
+cd ..
+ls -l
+cd repogit
+ls -l
+git clone git@github.com:SantiCoch/TP_AySO.git
+pwd
+ls -l
+ls
+cat /etc/os-release
+pwd
+cd TP_AySO/
+pwd
+clear
+[200~cat /etc/os-release
+clear
+cat /etc/os-release
+pwd
+ñs -l
+ls -l
+clear
+man grep
+grep model
+ls
+ls -
+ls -l
+cd repogit
+ls
+cd TP_AySO/
+whoami
+echo “Usuario=$(whoami)” > datos_usuario.txt
+cat datos_usuario.txt
+git status
+git add .
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+/proc
+/cpuinfo
+[200~grep 'model name' /proc/cpuinfo | head -n 1
+git status
+clear
+grep 'model name' /proc/cpuinfo | head -n 1
+echo "cpu_model:$(grep 'model name' /proc/cpuinfo | head -n 1 | awk -F': ' '{print $2}')" >> datos_usuario.txt
+cat datos_usuario.txt 
+git commit -m "Añadiendo información de CPU"
+git add .
+git status
+git commit -m "Añadiendo información de CPU"
+awk -F: '$7 != "/sbin/nologin" && $7 != "/bin/false" {print $1 ":" $7}' /etc/passwd
+awk -F: '$7 != "/sbin/nologin" && $7 != "/bin/false" {print $1 ":" $7}' /etc/passwd | sort -t: -k2
+awk -F: '$7 != "/sbin/nologin" && $7 != "/bin/false" {print $1 ":" $7}' /etc/passwd | sort -t: -k2 | head -n 10
+awk -F: '$7 != "/sbin/nologin" && $7 != "/bin/false" {print $1 ":" $7}' /etc/passwd | sort -t: -k2 | head -n 10 > lista_ordenada
+cat lista_ordenada
+clear
+git status
+git commit -m "ADD: Listado de usuarios ordenada"
+
+git commit -m "ADD: Listado de usuarios ordenada"
+clear
+tcpdump
+sudo tcpdump -i enp0s3 -w archivo.pcap
+cd repogit
+ls
+cd TP_AySO/
+clear
+pwd
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i <interfaz> -w archivo.pcap" >> comando_dump_net
+cat comando_dump_net
+git status
+git add .
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+cat <<EOF >> README.md
+Alumno: Santino Coch
+División: 115
+Turno: Mañana
+EOF
+
+cat README.md 
+git add .
+git commit -m "docs: Actualización del README con información del alumno"
+clear
+history -a
