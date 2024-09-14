@@ -1,0 +1,10 @@
+root:/bin/bash
+ubuntu:/bin/bash
+vagrant:/bin/bash
+sync:/bin/sync
+_apt:/usr/sbin/nologin
+backup:/usr/sbin/nologin
+bin:/usr/sbin/nologin
+daemon:/usr/sbin/nologin
+fwupd-refresh:/usr/sbin/nologin
+games:/usr/sbin/nologin
