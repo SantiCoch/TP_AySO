@@ -1,1 +1,2 @@
 “Usuario=vagrant”
+cpu_model:AMD Ryzen 5 5600X 6-Core Processor
